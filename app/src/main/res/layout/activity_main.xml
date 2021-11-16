@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="User Login"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="150dp"/>
+
+        <EditText
+            android:id="@+id/txtluname"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Enter Username..."
+            android:inputType="textEmailAddress"
+            android:textSize="20dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"/>
+
+        <EditText
+            android:id="@+id/txtlpass"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Enter Password..."
+            android:text="1234"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"/>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:text="LOGIN"
+            android:layout_marginTop="350dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:text="New User? Click Here"
+            android:layout_marginTop="450dp"
+            android:onClick="moveregis"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="200dp"/>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityReg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="User Registration"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="150dp"/>
+
+        <EditText
+            android:id="@+id/txtrname"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="250dp"
+            android:hint="Enter Name..."
+            android:text="abc"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+
+        <EditText
+            android:id="@+id/txtrphone"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Enter Phone No..."
+            android:text="9856471235"
+            android:inputType="phone"
+            android:textSize="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+
+        <EditText
+            android:id="@+id/txtruname"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Enter Username..."
+            android:inputType="textEmailAddress"
+            android:textSize="20dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+
+        <EditText
+            android:id="@+id/txtrpass"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Enter Password..."
+            android:text="1234"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+
+        <EditText
+            android:id="@+id/txtrcpass"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Enter Confirm Password..."
+            android:text="1234"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+
+        <Button
+            android:id="@+id/btnreg"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:text="Registration"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="200dp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+</ScrollView>
